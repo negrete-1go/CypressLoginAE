@@ -27,9 +27,10 @@ npm install
 }
 
 
-### 5. Run Login Feature throught cypress Test Runner 
+### 5. Run Login Feature through cypress Test Runner 
 
 npx cypress open  
+
 This will launch the Cypress test runner, where you can select the login feature file to run test interactively
 
 ### 6. OR run the next command to see it in headless mode
