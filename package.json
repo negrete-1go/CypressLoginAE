@@ -1,0 +1,24 @@
+{
+  "name": "cypressloginae",
+  "version": "1.0.0",
+  "description": "This is a Cypres Framework implementing POM and Cucumber for a Ecommerce",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/negrete-1go/CypressLoginAE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/negrete-1go/CypressLoginAE/issues"
+  },
+  "homepage": "https://github.com/negrete-1go/CypressLoginAE#readme",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.1",
+    "@cypress/webpack-preprocessor": "^6.0.2",
+    "cypress": "^14.3.0"
+  }
+}
