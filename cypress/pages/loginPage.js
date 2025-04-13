@@ -1,18 +1,18 @@
 class LoginPage {
     visit() {
-      cy.visit('/loginpagePractise/');
+      cy.visit('/client');
     }
   
     get usernameField() {
-      return cy.get('input[name="username"]');
+      return cy.get('#userEmail');
     }
   
     get passwordField() {
-      return cy.get('input[name="password"]');
+      return cy.get('#userPassword');
     }
   
     get loginButton() {
-      return cy.get('input[type="submit"]');
+      return cy.get('#login');
     }
   
     login(username, password) {
