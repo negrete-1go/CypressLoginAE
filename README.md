@@ -19,7 +19,7 @@ cd CypressLoginAE
 
 npm install
 
-### 3. Fixture folder usually should be ignore to avoid security leaks but for testing purposses to show the framework it was upload it to the repository
+### 3. Fixture folder usually should be ignored to avoid security leaks but for testing purposses to show the framework it was upload it to the repository
 
 {  
     "user": "<your_user>",  

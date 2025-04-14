@@ -25,4 +25,17 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 Cypress.Commands.add('maximize', () => {
     cy.viewport(1920, 1080);
-  });
+});
+
+Cypress.Commands.add('LoginAPI', () => {
+  cy.get('@userLogin').then((userLogin) => { 
+  cy.request("POST","https://rahulshettyacademy.com/api/ecom/auth/login", {
+              "userEmail": userLogin.user, 
+              "userPassword": userLogin.password 
+            }).then(function(response){
+              expect(response.status).to.eq(200)
+              Cypress.env('token', response.body.token);
+            })
+          })
+});
+
