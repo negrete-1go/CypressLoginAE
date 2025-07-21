@@ -12,7 +12,7 @@ class DashboardPage {
     }
 
     verifyDashboardIsVisible() {
-      cy.url().should('include', '/client/dashboard/dash');
+      cy.url().should('include', '/client/#/dashboard/dash');
     }
   }
   

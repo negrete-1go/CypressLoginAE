@@ -11,5 +11,5 @@ Given('I visit the login page', function() {
   });
   
   Then('I should be redirected to the dashboard', function() {
-    cy.url().should('include', '/client/dashboard/dash');
+    cy.url().should('include', '/client/#/dashboard/dash');
   });
