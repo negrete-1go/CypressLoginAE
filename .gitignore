@@ -402,3 +402,5 @@ FodyWeavers.xsd
 #node_modules - Cypress
 node_modules/
 
+#screenshots - Cypress
+cypress/screenshots
